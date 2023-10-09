@@ -27,6 +27,7 @@ public class KeyboardInputs implements KeyListener {
             case KeyEvent.VK_A -> gamePanel.changeX(-5);
             case KeyEvent.VK_S -> gamePanel.changeY(5);
             case KeyEvent.VK_D -> gamePanel.changeX(5);
+            case KeyEvent.VK_SPACE -> System.out.println("space");
         }
     }
 
