@@ -1,6 +1,7 @@
 package main;
 
 import inputs.KeyboardInputs;
+//muie
 import inputs.MouseInputs;
 
 import javax.swing.*;

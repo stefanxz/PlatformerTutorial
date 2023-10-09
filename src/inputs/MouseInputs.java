@@ -26,6 +26,7 @@ public class MouseInputs implements MouseListener, MouseMotionListener {
 
     }
 
+    //muie
     @Override
     public void mouseReleased(MouseEvent e) {
 
