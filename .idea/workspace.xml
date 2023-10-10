@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96d20bd-0d95-49e3-89fb-131eaef5d3bf" name="Changes" comment="" />
+    <list default="true" id="e96d20bd-0d95-49e3-89fb-131eaef5d3bf" name="Changes" comment="commit?" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2WZlmQyWMitOPK24zpcxBEQsoim" />
   <component name="ProjectViewState">
@@ -27,6 +30,35 @@
       <option name="presentableId" value="Default" />
       <updated>1696948143521</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit?">
+      <option name="closed" value="true" />
+      <created>1696948255020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696948255020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit?">
+      <option name="closed" value="true" />
+      <created>1696948373946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696948373946</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit?">
+      <option name="closed" value="true" />
+      <created>1696948446361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696948446361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit?" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit?" />
   </component>
 </project>
