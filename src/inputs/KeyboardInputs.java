@@ -18,7 +18,8 @@ public class KeyboardInputs implements KeyListener {
         //muie
     }
 
-    @Override
+    @Override//cacat
+
     public void keyPressed(KeyEvent e) {
 
         //Searches for keyboard input, changes the pos where the rectangle is drawn (X,Y) in regards with said input

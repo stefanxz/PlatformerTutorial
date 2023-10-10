@@ -31,7 +31,7 @@ public class GamePanel extends JPanel{
         this.yDelta = y;
         repaint();
     }
-
+//cacat
 
     public void paintComponent(Graphics g){
 
