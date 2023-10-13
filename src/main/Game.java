@@ -1,13 +1,40 @@
 package main;
 
-public class Game {
-    private GameWindow gameWindow;
-    private GamePanel gamePanel;
+import com.sun.jdi.ClassType;
+import com.sun.source.tree.ClassTree;
+import com.sun.source.tree.Tree;
+
+public class Game implements Runnable{
+    private final GamePanel gamePanel;
+
+
+    private void startGameLoop(){
+        Thread gameThread = new Thread(this);
+        gameThread.start();
+    }
+     public void run()
+    {
+        int SET_FPS = 120;
+        double timePerFrame = 1000000000.0/ SET_FPS;
+        boolean gameOver = false;
+        long lastFrame = System.nanoTime();
+        long now;
+        while(!gameOver)
+        {
+            now = System.nanoTime();
+            if(now - lastFrame >= timePerFrame)
+            {
+                gamePanel.repaint();
+                lastFrame = now;
+            }
+        }
+    }
+
     public Game()
     {
         gamePanel = new GamePanel();
-        gameWindow = new GameWindow(gamePanel);
+        GameWindow gameWindow = new GameWindow(gamePanel);
         gamePanel.requestFocus();
-        ////muie//cacat
+        startGameLoop();
     }
 }
